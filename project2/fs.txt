@@ -1,0 +1,10 @@
+chmod 755 /bin/ls
+chmod 755 /bin/sha1sum
+chmod 755 /bin/bash
+chmod u=rwxs,g=rx,o=rx /bin/passwd
+chmod u=rwx,g=rwx,o=rwxt /dev/shm
+chmod u=rw,g=w,o= /dev/console
+chmod 664 /etc/fstab
+chmod 755 /home/bob
+chmod 775 /var/log
+chmod 664 /var/log/lastlog
