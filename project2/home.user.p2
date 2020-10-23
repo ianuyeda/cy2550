@@ -1,0 +1,16 @@
+# Last Modified: Fri Oct 23 04:49:01 2020
+#include <tunables/global>
+/home/ianuyeda/p2 flags=(audit) {
+  #include <abstractions/apache2-common>
+  #include <abstractions/base>
+  #include <abstractions/user-tmp>
+  /home/ianuyeda/.project2/config w,
+  /home/ianuyeda/p2 mr,
+  /proc/version r,
+  /sys/kernel/mm/transparent_hugepage/hpage_pmd_size r,
+  /var/log/syslog r,
+  /etc/timezone r,
+  /proc/uptime r,
+  /etc/hostid r,
+  @{HOME}/template r,
+}
