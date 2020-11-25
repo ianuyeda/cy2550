@@ -3,3 +3,4 @@
 Nov 17 06:10:22
 /etc/shadow
 /root/adored-anteater-lynched-1.sh
+/bin/echo
