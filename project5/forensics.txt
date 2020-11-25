@@ -2,3 +2,4 @@
 17/Nov/2020:06:10:21 -0500
 Nov 17 06:10:22
 /etc/shadow
+/root/adored-anteater-lynched-1.sh
